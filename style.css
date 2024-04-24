@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY CSS */
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #707070;
+}
+
+i {
+    color: #2BAAEC;
+}
+
+.fa-twitter {
+    color: #25E6C8;
+}
+
+.clock {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media i {
+    padding-right: 20px;
+}
+
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.text h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.text p {
+    color: #626262;
+    padding-top: 6px;
+}
+
+.menu ul li a {
+    padding-right: 40px;
+    color: #363636;
+}
+
+
+/* Section s - Showcase */
+
+.showcase {
+    padding-top: 40px;
+    margin-top: 50px;
+    background-color: #DEDEDE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section-text h2 {
+    font-size: 60px;
+    font-weight: normal;
+    width: 600px;
+}
+
+.section-text p {
+    margin-top: 100px;
+    color: #626262;
+    width: 600px;
+}
+
+.section-text a {
+    display: inline-block;
+    margin-top: 70px;
+    color: #fff;
+    background-color: #25E6C8;
+    border-radius: 10px;
+    padding: 17px 35px;
+}
+
+
+/* Section s - About us */
+
+.about-us {
+    margin-top: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+
+.about-us-text{
+    margin-top: 80px;
+}
+
+.about-us-text h2 {
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.line {
+    height: 4px;
+    width: 705px;
+    background-color: #25E6C8;
+}
+
+.s-a-p {
+    margin-top: 40px;
+    width: 600px;
+    color: #626262;
+}
+
+.s-a-p2 {
+    margin-top: 40px;
+    width: 600px;
+    color: #626262;
+}
+
+.text-h {
+    padding-right: 100px;
+    margin-top: 40px;
+}
+
+.text-h h3 {
+    color: #2BAAEC;
+    margin-bottom: 7px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.number {
+    display: flex;
+    padding-right: 20px;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+
+
+/* Section s - Services */
+
+.services {
+    background-color: #F7F7F7;
+    padding: 40px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.line2 {
+    background-color: #25E6C8;
+    width: 450px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/* Boxes */
+
+.boxes {
+
+    padding: 20px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+
+/* Box1 */
+
+.box1 {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 436px;
+    width: 450px;
+    text-align: center;
+    padding: 40px;
+}
+
+.box1 img {
+    margin-top: 40px;
+    background-color: #25E6C8;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.box1 h4 {
+    margin-top: 50px;
+    color: #363636;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+.box1 p {
+    line-height: 28px;
+    width: 230px;
+    margin: 40px auto;
+    color: #707070;
+}
+
+
+#pic1 {
+    margin-top: 40px;
+    background-color: #2BAAEC;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#g16 {
+    width: 300px;
+}
+
+
+/* Box2 */
+
+.box2 {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 436px;
+    width: 450px;
+    text-align: center;
+    padding: 40px;
+}
+
+.box2 img {
+    margin-top: 40px;
+    background-color: #25E6C8;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.box2 h4 {
+    margin-top: 50px;
+    color: #363636;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.box2 p {
+    line-height: 28px;
+    width: 230px;
+    margin: 40px auto;
+    color: #707070;
+}
+
+
+/* Section s - appointment */
+
+.appointment {
+    padding: 60px 30px;
+    background-color: #2BAAEC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.appointment p {
+    color: #fff;
+}
+
+.appointment a {
+    color: #2BAAEC;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3494c7;
+    padding: 20px;
+    text-align: center;
+    color: #F3FBFF;
+    font-size: 16px;
+    font-weight: normal;
+}
