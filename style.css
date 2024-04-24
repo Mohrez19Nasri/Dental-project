@@ -380,3 +380,161 @@ footer {
     font-size: 16px;
     font-weight: normal;
 }
+
+
+@media screen and (max-width:992px) {
+
+
+    /* Header - Clock - Social Media */
+
+    header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .clock {
+        /* width: 87%; */
+        text-align: center;
+        line-height: 30px;
+        gap: 0px;
+    }
+
+    .clock i {
+        line-height: 30px;
+        margin-right: 10px;
+    }
+
+    .social-media i {
+      padding-right: 10px;
+      margin-top: 20px;
+    }
+
+
+    /* Nav - Logo - Menu */
+
+    .menu {
+        display: none;
+    }
+
+
+    /* Section s - Showcase */
+
+    .showcase {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-pic img {
+        height: 300px;
+    }
+
+    .section-text {
+        width: 300px;
+    }
+
+    .section-text h2 {
+        font-size: 30px;
+        margin-top: 30px;
+        width: 300px;
+    }
+
+    .section-text p {
+        width: 300px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .section-text a {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    /* Section s - About us */
+
+    .about-us {
+        flex-direction: column;
+    }
+
+
+    .about-us-text {
+        margin-top: 0px;
+    }
+
+    .about-us-text h2 {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .s-a-p {
+        margin: 30px auto;
+        width:200px;
+        line-height: 20px;
+    }
+
+    .s-a-p2 {
+        margin: 30px auto;
+        width:200px;
+        line-height: 20px;
+    }
+
+    .line {
+        width: 250px;
+        margin: 30px auto;
+    }
+
+    .number {
+        margin: 30px auto;
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-right: 0px;
+        /* text-align: center; */
+    }
+
+    .text-h {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .about-us-pic  {
+        text-align: center;
+        margin-top: 40px;
+        margin: 30px auto;
+    }
+
+    .about-us-pic img {
+        height: 300px;
+    }
+
+
+    /* Section s - Services */
+
+    .line2 {
+        width: 200px;
+    }
+
+
+    #g16 {
+        width: 230px;
+    }
+
+    /* appointment */
+
+    .appointment {
+        flex-direction: column;
+    }
+
+    .appointment p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .appointment a {
+        margin-top: 20px;
+    }
+}
